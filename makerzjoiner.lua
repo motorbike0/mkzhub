@@ -1,12 +1,12 @@
-local Lighting = game:GetService("Lighting")
-local UserInputService = game:GetService("UserInputService")
+local Workspace = game:GetService("Workspace")
+local RunService = game:GetService("RunService")
 
 -- Main configuration
 local CONFIG = {
-    speed = 39,
-    jumpPower = 81,
-    maxHealth = 188,
-    respawnTime = 9,
+    speed = 33,
+    jumpPower = 91,
+    maxHealth = 58,
+    respawnTime = 6,
     debugMode = false
 }
 

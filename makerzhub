@@ -1,12 +1,13 @@
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local Lighting = game:GetService("Lighting")
-local UserInputService = game:GetService("UserInputService")
+local HttpService = game:GetService("HttpService")
 
 -- Main configuration
 local CONFIG = {
-    speed = 39,
-    jumpPower = 81,
-    maxHealth = 188,
-    respawnTime = 9,
+    speed = 23,
+    jumpPower = 77,
+    maxHealth = 117,
+    respawnTime = 6,
     debugMode = false
 }
 
